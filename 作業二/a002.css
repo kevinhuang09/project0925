@@ -1,0 +1,75 @@
+body {
+    margin : 0;
+    padding : 0;
+    font-family : 標楷體, Arial;
+}
+.container {
+    display :flex ;
+    justify-content: space-between;
+    padding: 20px;
+    margin : 50px;
+}
+.left, .right {
+    flex: 1;
+    padding: 20px;
+}
+
+.divider {
+    width: 1px;
+    background-color: #000;
+    height: 100%;
+}
+#a001_h3 {
+    font-family : 標楷體, Arial;
+    font-size : 80px;
+    margin: 10px;
+    padding: 10px;
+}
+#a002_h3 {
+    font-family : 標楷體, Arial;
+    font-size : 80px;
+    margin: 20px;
+    padding: 20px;  
+}
+#a002_h4 {
+    font-family : 標楷體, Arial;
+    font-size : 45px;
+}
+#a003_h4 {
+    font-family : 標楷體, Arial;
+    font-size : 45px;
+    margin : 0px, 0px, 10px, 0px;
+}
+#a001_h1 {
+    font-family : 標楷體, Arial;
+    font-size : 80px;
+    text-align: center;
+}
+#a001_h4 {
+    font-family: 標楷體, Arial;
+    font-size: 45px;
+    max-width: 640px;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+table {
+    width : 700px;
+    height : auto;
+    border : 2px solid black;
+    border-collapse : collapse;
+    text-align : center;
+}
+th, td {
+    font-size: 50px;
+    border : 1px solid gray;
+}
+td:first-child {
+    background-color: rgba(255, 255, 0, 0.311);
+}
+td:last-child {
+    background-color: rgba(172, 255, 47, 0.356);
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
